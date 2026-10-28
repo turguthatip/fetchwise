@@ -3,7 +3,11 @@ import { NavTabs, SERP_TABS } from "@/components/nav-tabs";
 import { PageHeader } from "@/components/page-header";
 import { ScraperPlayground } from "./scraper-playground";
 
-export const metadata: Metadata = { title: "SERP Scraping API" };
+export const metadata: Metadata = {
+  title: "SERP Scraping API",
+  description: "Scrape search engine results with location, language, device and pagination controls, and preview the request, JSON response and rendered page.",
+  alternates: { canonical: "/scraping/serp" },
+};
 
 function SerpIcon() {
   return (

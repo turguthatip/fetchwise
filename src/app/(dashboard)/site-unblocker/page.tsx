@@ -4,7 +4,11 @@ import { PageHeader } from "@/components/page-header";
 import { Icon } from "@/components/ui";
 import { UnblockerPlayground } from "./unblocker-playground";
 
-export const metadata: Metadata = { title: "Site Unblocker" };
+export const metadata: Metadata = {
+  title: "Site Unblocker",
+  description: "Access hard-to-reach websites from any location with automatic headers, sessions and JavaScript rendering, and test requests in the API playground.",
+  alternates: { canonical: "/site-unblocker" },
+};
 
 export default function SiteUnblockerPage() {
   return (
